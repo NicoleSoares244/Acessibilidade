@@ -180,3 +180,19 @@ h2 {
     background-color: var(--alto-contraste-alto);
     color: var(--alto-cntraste-texto);
 }
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste #tropicalia{
+    background: none;
+}
+
+.alto-contraste #galeria{
+    background-color: var(--alto-contraste-alto);
+}
+
+.alto-contraste .fundo-galeria{
+    background: none;
+}
