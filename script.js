@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
     let tamanhoAtualFonte= 1;
 
-        aumentaFonteBotao.addEventListener('clic', function(){
+        aumentaFonteBotao.addEventListener('click', function(){
         tamanhoAtualFonte += 0.1;
         document.body.style.fontSize =`${tamanhoAtualFonte}rem`
    })
-        aumentaFonteBotao.addEventListener('clic', function(){
+        aumentaFonteBotao.addEventListener('click', function(){
         tamanhoAtualFonte -= 0.1;
         document.body.style.fontSize =`${tamanhoAtualFonte}rem`
 
@@ -30,7 +30,7 @@ alternaConstraste.addEventListener('click', function(){
 })
 
 const botaoSelecionar = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'tru';
-botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado);
+botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionador);
 
 })
 
