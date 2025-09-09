@@ -33,3 +33,8 @@ const botaoSelecionar = botaoDeAcessibilidade.getAttribute('aria-expanded') === 
 botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado);
 
 })
+
+ScrollReveal().reveal('#inicio', { delay: 500 });
+ScrollReveal().reveal('#tropicalia', { delay: 500 });
+ScrollReveal().reveal('#galeria', { delay: 500 });
+ScrollReveal().reveal('#contato', { delay: 500 });
