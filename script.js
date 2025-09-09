@@ -23,4 +23,10 @@ botaoDeAcessibilidade.classList.toggle('rotacao-botao');
 opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
 })
 
+const alternaConstraste = document.getElementById('alterna-contraste');
+
+alternaConstraste.addEventListener('click', function(){
+    document.body,this.classList.toggle('alto-contraste');
+})
+
 })
